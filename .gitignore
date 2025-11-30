@@ -1,0 +1,75 @@
+# .gitignore
+
+# ビルド成果物
+build/
+bin/
+obj/
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/
+Debug/
+Release/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# データファイル
+*.csv
+!docs/SAMPLE_DATA.md
+
+# コンパイラ生成ファイル
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+
+# ライブラリ
+*.lib
+*.a
+*.la
+
+# デバッグファイル
+*.dSYM/
+*.pdb
+*.idb
+*.log
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
